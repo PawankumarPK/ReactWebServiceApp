@@ -1,11 +1,19 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+import web from "../src/images/banner.png"
+import Common from "./Common";
 
 
 const About = () => {
   return (
-      <>
-          <h1>About Welcome</h1>
-      </>
+    <>
+        <Common
+        name="Welcome to about page"
+        imgsrc={web}
+        visit="/contact"
+        btname="Contact Now"
+        />
+    </>
   )
 }
 
