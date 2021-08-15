@@ -1,4 +1,7 @@
 import web from "../src/images/freefire2.jpg"
+import callofduty from "../src/images/callofduty.jpg"
+import counterstrike from "../src/images/counterstrike.jpg"
+
 
 
 const Sdata = [
@@ -7,11 +10,11 @@ const Sdata = [
         title:"Web Development"
     },
     {
-        imgsrc:web,
+        imgsrc:callofduty,
         title:"App Development"
     },
     {
-        imgsrc:web,
+        imgsrc:counterstrike,
         title:"Software Development"
     },
     {
@@ -19,11 +22,11 @@ const Sdata = [
         title:"Digital Marketing"
     },
     {
-        imgsrc:web,
+        imgsrc:counterstrike,
         title:"Android Development"
     },
     {
-        imgsrc:web,
+        imgsrc:callofduty,
         title:"Marketing Development"
     },
 
